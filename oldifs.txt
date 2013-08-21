@@ -1,0 +1,46 @@
+﻿  //Έλεγχος καταχώρησης ονόματος
+
+  if(empty($_POST['firstname']))
+  {
+   $errors[]='Παρακαλώ συμπληρώστε το όνομά σας';
+  }
+  else
+  {
+   $fn=trim($_POST['firstname']);
+  }
+
+  //Έλεγχος καταχώρησης επωνύμου
+
+  if(empty($_POST['lastname']))
+  {
+   $errors[]='Παρακαλώ συμπληρώστε το επώνυμό σας';
+  }
+  else
+  {
+   $ln=trim($_POST['lastname']);
+  }
+  
+ //Έλεγχος καταχώρησης τηλεφώνου
+
+  if(empty($_POST['phonenumber']))
+  {
+   $errors[]='Παρακαλώ συμπληρώστε το τηλέφωνό σας';
+  }
+    elseif(is_numeric($_POST['phonenumber']))
+    {$ph=trim($_POST['phonenumber']);
+    }
+  else
+  {
+  	$errors[]='Παρακαλώ συμπληρώστε σωστά το τηλέφωνό σας';
+  }
+ 
+  //Έλεγχος καταχώρησης διεύθυνσης
+
+  if(empty($_POST['address']))
+  {
+   $errors[]='Παρακαλώ συμπληρώστε την διεύθυνσή σας';
+  }
+  else
+  {
+   $ad=trim($_POST['address']);
+  }
