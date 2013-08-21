@@ -1,0 +1,113 @@
+body{margin:0px;}
+
+#content-box{border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    left: 25%;
+    padding: 15px;
+    position: absolute;
+    top: 25%;
+    width: 45%;
+    height: 225px;}
+    
+#content-box-registration{border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    left: 25%;
+    padding: 15px;
+    position: absolute;
+    top: 15%;
+    width: 45%;
+    height: 400px;}
+
+#internal{margin-left: 20px;}
+
+img{ float: right;
+    margin-right: 50px;
+    margin-top: -70px;}
+
+p{float: right;
+    margin-right: -100px;
+    margin-top: 65px;}
+    
+#login-internal{height:100px;}
+
+form{width:400px;}
+
+fieldset#login{ border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    float: none;
+    padding: 10px;
+    height: 130px;}
+    
+fieldset#registration{ border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    float: none;
+    padding: 10px;
+    height: 300px;}
+
+label#fn{margin-left: 10px;}
+
+input#fn{margin-left: 67px;margin-top: 20px; }
+
+label#ln{margin-left: 10px;}
+
+input#ln{margin-left: 54px;margin-top: 20px; }
+
+label#ph{margin-left: 10px;}
+
+input#ph{margin-left: 50px;margin-top: 20px; }
+
+label#ad{margin-left: 10px;}
+
+input#ad{margin-left: 45px;margin-top: 20px; }
+
+label#un{margin-left: 10px;}
+
+input#un{margin-left: 45px;margin-top: 20px; }
+
+label#pw{margin-left: 10px;margin-top:10px;}
+
+input#pw{margin-left: 52px; margin-top:10px; }
+
+input#button-login{float:right;margin-right: 40px;margin-top: 15px;}
+
+input#button-register{float:right;margin-right: 40px;margin-top: 15px;}
+
+#same_user{margin-top: 58px;}
+
+#a_try_again{margin-left: 355px;margin-top: 50px;}
+
+#header{float: left; margin-left: 35px; margin-top: 80px;}
+
+#header_a{ float: left; margin-top: 10px;}
+
+#content-header{height:120px;background-color: #9cbce2;border-bottom: 3px solid #000000;}
+
+input#edit_profile{margin-left: 50px;margin-top: 12px;}
+
+form#home{float: left;margin-left: 165px;margin-top: -38px;}
+
+input#home{margin-left: 60px;margin-top: 12px;}
+
+form#logout{float: left;margin-left: 320px;margin-top: -26px;}
+
+#welcome{margin-left: 50px;padding-top: 20px;}
+
+#search{float: right; margin-right: 130px;margin-top: -22px;z-index: 1;}
+
+input#search{ float: right;margin-left: 412px;margin-top: -28px;margin-right: -87px;padding: 2px;}
+
+#contacttable{margin-left: 15%;margin-top:40px;}
+
+#edittitle{margin-left:33%;}
+
+form#edit{margin-left: 30%;margin-top: 2%;}
+
+p#delete{ margin-right: 173px;margin-top:0;}
+
+form#add_new{float: right;margin-bottom: 10px;margin-right: 134px;}
+
+#thank_you{ margin-left: 33%;}
+
+#same_contact{margin-left: 30%;}
+
+img#editimg{margin-top:0px;  float: left;margin-left: 21px;margin-right: 50px;}
